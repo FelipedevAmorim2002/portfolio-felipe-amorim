@@ -1,0 +1,348 @@
+body {
+    background-color: #782f2f;
+    color: #f1eeea;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+
+.Nome {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.Idade {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Email {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.Descriçao {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 0 0 20px rgb(192, 186, 26);
+    right: 12px;
+    border-radius: 10%;
+}
+
+.Quero-aprender {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.html {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.css {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.javascript {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+.react {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.nodejs {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+div {
+    background-color: black;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(199, 202, 21);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #f2fafa;
+    background-color: rgb(200, 121, 18);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+
+
+.interaçao {
+    background-color: rgb(21, 5, 49);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    border: 4px solid rgb(30, 165, 210);
+    margin: 0 auto 40px auto;
+    width: 900px;
+
+    button {
+        background-color: rgb(21, 5, 49);
+        color: #f2fafa;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        margin-bottom: 40px;
+        font-weight: bold;
+        border-radius: 50px
+    }
+
+    input {
+        background-color: rgb(212, 218, 227);
+        color: hsl(0, 0%, 2%);
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        border-bottom: 2px solid aqua;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+}
+
+.botões {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    box-shadow: inset 0 0 20px rgb(175, 215, 53);
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto 40px auto;
+    width: 900px;
+}
+
+.perfil {
+    width: 900px;
+    background-color: rgba(41, 65, 103, 0.74);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 6px solid rgb(203, 162, 28);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 20px rgb(26, 27, 23);
+    position: relative;
+    margin: 0 auto 40px auto;
+
+
+    h1 {
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    h6 {
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-bottom: 3px;
+
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 50px;
+    }
+
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+
+.botao {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+
+.perfil:hover {
+    border-color: blue;
+}
+
+.interaçao:hover {
+    border-color: blue;
+}
+
+.botões:hover {
+    border-color: blue;
+}
+
+.etiqueta {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: 'Poppin', sans-serif;
+}
+
+.perfil {
+    animation: aparecer 1s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 2;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgb(38, 170, 157);
+    padding: 20px;
+    border-radius: 10px;
+
+
+    .menu a {
+        color: white;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        background-color: rgb(194, 34, 34);
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-direction: row;
+
+    }
+}
+
+.menu a:hover {
+    color: #1d4adc;
+
+}
+
+.caixa.menu {
+    background-color: hsl(251, 74%, 5%);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(210, 104, 10, 0.3);
+    width: 600px;
+    display: flex;
+    margin: 0 auto 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    color: rgb(64, 0, 255);
+
+}
+
+@media (max-width: 700px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    .perfil {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .menu {
+        width: 95%;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .perfil h1 {
+        font-size: 30px;
+    }
+
+    .menu a {
+        font-size: 15px;
+    }
+}
+.destaque{
+    color: rgb(255, 238, 0);
+    font-weight: bold;
+}
